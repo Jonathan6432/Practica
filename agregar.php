@@ -70,7 +70,7 @@
 
 
                 <div class=" form-floating mb-3 bg-primary">
-                    <input type="email" class="form-control" name="nombre" id="floatingInput" placeholder="Nombre"
+                    <input type="text" class="form-control" name="nombre" id="floatingInput" placeholder="Nombre"
                         required>
                     <label for="floatingInput">Nombre de la persona: </label>
 
@@ -82,7 +82,7 @@
 
                 </div>
                 <div class="form-floating mb-3">
-                    <select for="select" class="form-select" id="floatingSelect" required> <br>
+                    <select for="select" name="genero" class="form-select" id="floatingSelect" required> <br>
 
                         <option selected></option>
                         <option value="Masculino"> Masculino</option>
