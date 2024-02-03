@@ -1,0 +1,55 @@
+body{
+margin: 0;
+font-family: Arial, Helvetica, sans-serif;
+background-image: linear-gradient(to top, #0c3483 0%, #a2b6df 100%, #6b8cce 100%, #a2b6df 100%);
+min-height: 100vh;
+align-items: center;
+justify-content: center;
+background-color: #2a5298;
+}
+
+.form{
+    border-radius: 5px;
+    margin: 0 auto;
+    font-size: 15px;
+    margin-bottom: 30px;
+    background-color: #0c3483;
+}
+
+input,select{
+    width:100% ;
+    margin-right: 10px;
+    height: 50px;
+    font-weight: 500;
+    background-image: linear-gradient(to top, #6a85b6 0%, #bac8e0 100%);
+}
+option{
+    height: 100px;
+}
+
+
+.btn{
+    height: 50px;
+    background-color: rgb(8, 8, 77);
+}
+.btn:hover  {
+  background: #00050e;
+  color: #dde5ed;
+}
+i{
+    font-size: 20px;
+    margin-right: 10px;
+    color: #000c23;
+}
+
+.bg{
+  background-image: url(./img/Astronaut.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 768px) {
+.form{
+  width: 50%;
+}
+ }
